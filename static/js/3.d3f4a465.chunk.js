@@ -1,0 +1,2 @@
+(this.webpackJsonplebenslauf=this.webpackJsonplebenslauf||[]).push([[3],{53:function(e,i,n){"use strict";n.r(i);var s=n(1);i.default=function(){return Object(s.jsxs)("div",{children:[Object(s.jsx)("h2",{children:"Willkommen auf meiner Homepage."}),Object(s.jsx)("div",{children:"Diese Seite befindet sich aktuell noch im Aufbau."}),Object(s.jsx)("div",{children:'Die Navigationsitems funktionieren bereits, jedoch sind alle Seiten "work in progress".'})]})}}}]);
+//# sourceMappingURL=3.d3f4a465.chunk.js.map
