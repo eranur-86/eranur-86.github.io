@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+ ### Herzlich willkommen... 
+ ...in meinem Git-Repository zu meinem Lebenslauf.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hier gibt es den Source-Code zu meiner Github-Seite[ thkratzer.github.io](http://thkratzer.github.io " thkratzer.github.io") zu sehen. Aktuell arbeite ich als Junior-Softwareentwickler im Bereich Fullstack mit Fokus auf Java EE sowie React.
 
-## Available Scripts
+Die Seite basiert auf der React Create App (https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+#####  Verwendete Technologien:
 
-### `npm start`
+- React Router
+- React-Bootstrap
+- Bootstrap5
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Gerne kann die Seite geklont, sowie ein eigener Lebenslauf daraus erstellt werden. Bitte beachtet jedoch, dass der Inhalt geändert werden muss.
+Sobald der Code heruntergeladen wurde, muss die Anwendung mit `npm install` gebaut werden. Anschließend kann mit `npm run` die Anwendung lokal gestartet werden.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Über Feedback bzw. Fehler bin ich jederzeit dankbar. Ihr könnt mir diese über ein Issue über Github zukommen lassen.
 
-### `npm test`
+Ansonsten kann man mir bei Fragen zum Code ebenfalls gerne eine Nachricht über Github schicken.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Schöne Grüße,
 
-### `npm run build`
+thkratzer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Hallo and welcome...
 
-### `npm run eject`
+...to the git repository for my CV.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Here you can see the source code to my Github page [thkratzer.github.io](http://thkratzer.github.io "thkratzer.github.io"). Currently I'm working as a junior software developer in fullstack with focus on Java EE as well as React.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The page is based on the React Create App (https://github.com/facebook/create-react-app).
+#####  Technologies used:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-     React Router
+-     React-Bootstrap
+-     Bootstrap5
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You are welcome to clone the page, as well as create your own CV from it. However, please note that the content must be changed.
+Once the code has been downloaded, the application must be built with `npm install`. Afterwards, the application can be started locally with `npm run`.
 
-## Learn More
+I am always grateful for feedback or bugs. You can send them to me via an issue on Github.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Otherwise, if you have questions about the code, you can also send me a message via Github.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Best regards,
+
