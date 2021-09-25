@@ -34,9 +34,9 @@ Here you can see the source code to my Github page [thkratzer.github.io](http://
 The page is based on the React Create App (https://github.com/facebook/create-react-app).
 #####  Technologies used:
 
--     React Router
--     React-Bootstrap
--     Bootstrap5
+- React Router
+- React-Bootstrap
+- Bootstrap5
 
 You are welcome to clone the page, as well as create your own CV from it. However, please note that the content must be changed.
 Once the code has been downloaded, the application must be built with `npm install`. Afterwards, the application can be started locally with `npm run`.

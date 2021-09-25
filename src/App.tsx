@@ -22,7 +22,7 @@ const App = () => {
         <Switch>
           <Route path={SKILLS}><SkillPage/></Route>
           <Route path={PROJEKTE}><ProjektPage/></Route>
-          <Route path={HOME}></Route>
+          <Route path={HOME} exact></Route>
         </Switch>
       </Container>
       </Suspense>
