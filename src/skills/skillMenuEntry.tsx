@@ -5,9 +5,9 @@ export const SkillMenuEntry = (props:{menuName:string,entryItem:SkillEntryItem[]
     return(
         <>
         <div>
-            <h2>{props.menuName}</h2>
+            <h2 className="text-center">{props.menuName}</h2>
         </div>
-        <div>
+        <div className="container-fluid">
             <CreateSkillEntryItem entries={props.entryItem}/>
         </div>
         </>)
@@ -17,10 +17,10 @@ export const SkillMenuEntry = (props:{menuName:string,entryItem:SkillEntryItem[]
 const CreateSkillEntryItem = (props:{entries:SkillEntryItem[]}) => {
     
     return(
-    <>
+    <div className="col">
         {props.entries.map(item => 
-        <div>{item.entryItemName}, {item.experience}</div>
+        <div className="row">o {item.entryItemName} {/*item.experience*/}</div>
         )}
-    </>)
+    </div>)
 
  }

@@ -30,17 +30,17 @@ const App = () => {
   );
 }
 
-const containerTest = () => {
-  return(
-    <Row md={12}>
-  <Col md={2} sm={1} id="sidebar_left">
-  Placeholder
-  </Col>
-  <Col id="content">
-  Placeholder
-  </Col>
-</Row>
-  )
-}
+// const containerTest = () => {
+//   return(
+//     <Row md={1}>
+//   <Col xl={1} md={1} sm={1} id="sidebar_left">
+//   Placeholder
+//   </Col>
+//   <Col id="content">
+//   Placeholder
+//   </Col>
+// </Row>
+//   )
+// }
 
 export default App;
