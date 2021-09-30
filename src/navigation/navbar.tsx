@@ -14,7 +14,7 @@ return (
         <Nav className="me-auto">
         <Nav.Link as={Link} to={SKILLS}>Skills</Nav.Link>
         <Nav.Link as={Link} to={PROJEKTE}>Projekte</Nav.Link>
-        <a href={GITREPO} className={"nav-link Ripple-parent"} target="_blank">Github Repo</a>
+        <a href={GITREPO} className={"nav-link Ripple-parent"} target="_blank" rel="noreferrer noopener">Github Repo</a>
         </Nav>
     </Navbar.Collapse>
     </Container>
