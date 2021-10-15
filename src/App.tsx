@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
-import {NavElement} from "./navigation/navbar"
-import { Container} from "react-bootstrap";
+import { NavElement } from "./navigation/navbar"
+import { Container } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 import { HOME, PROJEKTE, SKILLS } from "./navigation/navgoals";
 
@@ -28,18 +28,5 @@ const App = () => {
     </div>
   );
 }
-
-// const containerTest = () => {
-//   return(
-//     <Row md={1}>
-//   <Col xl={1} md={1} sm={1} id="sidebar_left">
-//   Placeholder
-//   </Col>
-//   <Col id="content">
-//   Placeholder
-//   </Col>
-// </Row>
-//   )
-// }
 
 export default App;

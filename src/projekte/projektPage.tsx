@@ -1,41 +1,24 @@
-import {ProjektEntryItem} from '../interfaces/menuEntry'
-import {ProjektMenuEntry} from './projektMenuEntry'
+import { ProjektEntryItem } from '../interfaces/menuEntry'
+import { ProjektMenuEntry } from './projektMenuEntry'
+import * as projectData from './projektData'
 
-const placeHolderItems:ProjektEntryItem[] = [
-    {entryItemName : "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText"},
-    {entryItemName : "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText"},
-    {entryItemName : "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText"},
-    {entryItemName : "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText"},
-    {entryItemName : "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText"},
+const placeHolderItems: Array<ProjektEntryItem> = [
+    { entryItemName: "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText", entryItemTechnology: "React" },
+    { entryItemName: "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText", entryItemTechnology: "React" },
+    { entryItemName: "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText", entryItemTechnology: "React" },
+    { entryItemName: "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText", entryItemTechnology: "React" },
+    { entryItemName: "Placeholder", entryItemDatum: "2021-09", entryItemText: "PlaceholderText", entryItemTechnology: "React" },
 ]
 
 const ProjektPage = () => {
     return (
         <>
-       <ProjektMenuEntry menuName="Aktuell" entryItem={placeHolderItems}/>
-       <ProjektMenuEntry menuName="Technologien" entryItem={placeHolderItems}/>
-       <ProjektMenuEntry menuName="Backend" entryItem={placeHolderItems}/>
-       <ProjektMenuEntry menuName="Middleware" entryItem={placeHolderItems}/>
-       <ProjektMenuEntry menuName="Schwerpunkte" entryItem={placeHolderItems}/>
-       <ProjektMenuEntry menuName="Schwerpunkte" entryItem={placeHolderItems}/>
-        <div>
-            
-        </div>
-        <div>
-            
-        </div>
-        <div>
-            
-        </div>
-        <div>
-            Build-Umgebungen
-        </div>
-        <div>
-            Datenbanken
-        </div>
-        <div>
-            
-        </div>
+            <ProjektMenuEntry menuName="Aktuell" entryItem={placeHolderItems} />
+            <ProjektMenuEntry menuName="bisherige Projekte" entryItem={placeHolderItems} />
+            <ProjektMenuEntry menuName="Backend" entryItem={placeHolderItems} />
+            <ProjektMenuEntry menuName="Middleware" entryItem={placeHolderItems} />
+            <ProjektMenuEntry menuName="Schwerpunkte" entryItem={placeHolderItems} />
+            <ProjektMenuEntry menuName="Schwerpunkte" entryItem={placeHolderItems} />
         </>
     )
 }

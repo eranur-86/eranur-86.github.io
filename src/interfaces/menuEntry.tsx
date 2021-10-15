@@ -1,10 +1,11 @@
 interface EntryItem {
-    entryItemName:String,
+    entryItemName:string,
 }
 
 export interface ProjektEntryItem extends EntryItem { 
-    entryItemDatum:String,
-    entryItemText:String
+    entryItemDatum:string,
+    entryItemText:string,
+    entryItemTechnology:string,
 }
 
 export interface SkillEntryItem extends EntryItem {

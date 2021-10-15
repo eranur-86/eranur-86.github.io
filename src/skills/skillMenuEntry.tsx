@@ -1,3 +1,4 @@
+import { ProgressBar } from "react-bootstrap"
 import { SkillEntryItem } from "../interfaces/menuEntry"
 
 export const SkillMenuEntry = (props:{menuName:string,entryItem:SkillEntryItem[]}) => {
@@ -19,7 +20,10 @@ const CreateSkillEntryItem = (props:{entries:SkillEntryItem[]}) => {
     return(
     <div className="col">
         {props.entries.map(item => 
-        <div className="row">o {item.entryItemName} {/*item.experience*/}</div>
+        <div className="row">o {item.entryItemName}
+        <ProgressBar variant={"info"} now={item.experience} max={5}/>
+        </div>
+
         )}
     </div>)
 
